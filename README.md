@@ -16,7 +16,7 @@ We visit some common data structures + their implementations in Python 3.
 
 #### Algorithms
 
-We explore solutions to some slightly tricky algorithmic/problem solving type questions.
+We explore solutions to some slightly tricky algorithmic/problem solving type questions in Python 3.
 
 #### System Design Principles
 
