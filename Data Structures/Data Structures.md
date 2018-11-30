@@ -601,7 +601,6 @@ print(heap.delete())
 print(heap.delete())
 print(heap.delete())
 print(heap.delete())
-print(heap.delete())
 ```
 
     2
@@ -611,35 +610,3 @@ print(heap.delete())
     9
     25
 
-
-
-    ---------------------------------------------------------------------------
-
-    IndexError                                Traceback (most recent call last)
-
-    <ipython-input-116-e0d70120c69c> in <module>()
-          7 print(heap.delete())
-          8 print(heap.delete())
-    ----> 9 print(heap.delete())
-    
-
-    <ipython-input-115-7054796aeaee> in delete(self)
-         35 
-         36     def delete(self):
-    ---> 37         deleted_node = self.heap[1]
-         38         self.heap[1] = self.heap[self.current_size]
-         39         self.current_size -= 1
-
-
-    IndexError: list index out of range
-
-
-
-```python
-
-```
-
-
-```python
-
-```
